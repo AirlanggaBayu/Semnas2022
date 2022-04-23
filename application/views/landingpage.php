@@ -1,108 +1,3 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-    <title>Semnas 2022 Draf</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta name="keywords" content="ICoFA 2021">
-    <meta name="description" content="4th International Conference on Food and Agriculture">
-    <meta name="theme-color" content="#28a745">
-    <meta property="og:title" content="ICoFA 2021">
-	<meta property="og:description" content="4th International Conference on Food and Agriculture">
-	<meta property="og:image" content="https://conference.polije.ac.id/icofa/2021/public/img/icofa_4th_icon.png">
-	<meta property="og:url" content="https://conference.polije.ac.id/icofa/2021">
-
-    <!-- CSS SENDIRI -->
-    <link rel="stylesheet" href="<?=base_url('assets/css/style.css');?>">
-    <!-- Favicons -->
-    <link href="https://conference.polije.ac.id/icofa/2021/public/img/icofa_4th_icon.png" rel="icon">
-    <link href="https://conference.polije.ac.id/icofa/2021/public/img/icofa_4th_icon.png" rel="apple-touch-icon">
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
-
-    <!-- Bootstrap CSS File -->
-    <link href="https://conference.polije.ac.id/icofa/2021/public/lib/bootstrap/css/bootstrap.css" rel="stylesheet">
-
-    <!-- Libraries CSS Files -->
-    <link href="https://conference.polije.ac.id/icofa/2021/public/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://conference.polije.ac.id/icofa/2021/public/lib/animate/animate.min.css" rel="stylesheet">
-    <link href="https://conference.polije.ac.id/icofa/2021/public/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-    <link href="https://conference.polije.ac.id/icofa/2021/public/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="https://conference.polije.ac.id/icofa/2021/public/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-    <link href="https://conference.polije.ac.id/icofa/2021/public/lib/vertical-timeline/vertical-timeline.css" rel="stylesheet">
-    <link href="https://conference.polije.ac.id/icofa/2021/public/lib/card-tables/dist/bootstrap4-card-tables.min.css" rel="stylesheet">
-
-    <!-- Main Stylesheet File -->
-    <link href="https://conference.polije.ac.id/icofa/2021/public/css/style.css" rel="stylesheet">
-    <link href="https://conference.polije.ac.id/icofa/2021/public/css/custom.css" rel="stylesheet">
-</head>
-<body>
-    <header id="header" class="fixed-top">
-        <div class="container">
-            <div class="logo float-left">
-                <!-- Uncomment below if you prefer to use an image logo -->
-                <!-- <h1 class="text-light"><a href="#header"><span>ICoFA 2021</span></a></h1> -->
-                <a href="https://conference.polije.ac.id/icofa/2021" class="scrollto"><img src="<?=base_url('/assets/gambar/caas_2022.png');?>" alt="" class="img-fluid mr-5" height=100px"></a>
-            </div>
-            <nav class="main-nav float-right d-none d-xl-block">
-                <ul>
-                                                                        <li><a href="./#callforpaper" target="_self">Call for Papers</a></li>
-                                                                                                <li><a href="./#speaker" target="_self">Speaker</a></li>
-                                                                                                <li class="drop-down"><a href="#" target="_self">Committee</a>
-                                <ul>
-                                                                                                            <li><a href="./steering-committee" target="_self">Steering Committee</a></li>
-                                                                                                                                                <li><a href="organizing-committee" target="_self">Organizing Committee</a></li>
-                                                                                                    </ul>
-                            </li>
-                                                                                                <li class="drop-down"><a href="#" target="_self">For Author</a>
-                                <ul>
-                                                                                                            <li><a href="virtual-conference-guideline" target="_self">Virtual Conference Guideline</a></li>
-                                                                                                                                                <li><a href="./important-dates" target="_self">Important Date</a></li>
-                                                                                                                                                <li><a href="author-information" target="_self">Author Information</a></li>
-                                                                                                                                                <li><a href="registration" target="_self">Registration</a></li>
-                                                                                                                                                <li><a href="https://forms.gle/pjNQ4G6iM2A2VvRD8" target="_blank">Registration for Participant Only</a></li>
-                                                                                                                                                <li><a href="./#" target="_blank">Registration for IOP</a></li>
-                                                                                                                                                <li><a href="contact" target="_self">Contact</a></li>
-                                                                                                    </ul>
-                            </li>
-                                                                                                <li class="drop-down"><a href="#" target="_self">Event</a>
-                                <ul>
-                                                                                                            <li class="drop-down"><a href="#" target="_self">Previous Event</a>
-                                            <ul>
-                                                                                                    <li><a href="https://conference.polije.ac.id/icofa/2018" target="_blank">ICoFA 2018</a></li>
-                                                                                                    <li><a href="https://conference.polije.ac.id/icofa/2019" target="_blank">ICoFA 2019</a></li>
-                                                                                                    <li><a href="https://conference.polije.ac.id/icofa/2020" target="_blank">ICoFA 2020</a></li>
-                                                                                            </ul>
-                                        </li>
-                                                                                                                                                <li class="drop-down"><a href="#" target="_self">Conference Event</a>
-                                            <ul>
-                                                                                                    <li><a href="program-schedule" target="_self">Program Schedule</a></li>
-                                                                                                    <li><a href="presentation-schedule" target="_self">Presentation Schedule</a></li>
-                                                                                            </ul>
-                                        </li>
-                                                                                                                                                <li class="drop-down"><a href="#" target="_self">Venue</a>
-                                            <ul>
-                                                                                                    <li><a href="online-conference-webinar-information" target="_self">Online Conference / <br>Webinar Information</a></li>
-                                                                                            </ul>
-                                        </li>
-                                                                                                                                                <li class="drop-down"><a href="#" target="_self">Gallery</a>
-                                            <ul>
-                                                                                                    <li><a href="gallery" target="_self">Photos</a></li>
-                                                                                                    <li><a href="videos" target="_self">Videos</a></li>
-                                                                                            </ul>
-                                        </li>
-                                                                                                    </ul>
-                            </li>
-                                                                                                <li><a href="download" target="_self">Download</a></li>
-                                                                <!-- Authentication Links -->
-                                            <!-- <li><a href="https://conference.polije.ac.id/icofa/2021/login"><i class="fa fa-lock"></i></a></li> -->
-                                    </ul>
-            </nav><!-- .main-nav -->            
-        </div>
-    </header><!-- #header -->
-
     <section id="intro" class="clearfix bg-dark mb-5">
     <div class="container-fluid">
         <div class="row">
@@ -151,17 +46,17 @@
 
                 <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
                     <h4></h4>
-                    <p>Politeknik Negeri Jember, Indonesia will be holding online scientific conference, entitled The 4th International Conference on Food and Agriculture (ICoFA). The theme of ICoFA is “Scientific and Technological Efforts in Sustainable Food and Agriculture”.</p>
+                    <p>Department of Animal Husbandry  (Politeknik Negeri Jember, Indonesia) will be holding an online scientific conference entitled The 3rd National Conference Of Applied Animal Science (CAAS). A theme of the 3rd CAAS is "Challenges Livestock Industry through the Application of Green Economy to Recognize Sustainable Food Independence  in the Era of Society 5.0."</p>
 <p>The conference will discuss several topics, including:</p>
 <ol style="list-style-type: number;" class="ml-5">
-<li>Agriculture Engineering and Biotechnology</li>
-<li>Organic Agriculture</li>
-<li>Animal Science Related to Food</li>
-<li>Food Science and Technology</li>
-<li>Food Safety</li>
-<li>Food Security and Sovereignty</li>
-<li>IT for Agriculture</li>
-<li>Renewable and Novel Energy Sources</li>
+<li>Livestock Production</li>
+<li>Animal Health</li>
+<li>Animal Nutrition</li>
+<li>Feed Technology</li>
+<li>Livestock Technology</li>
+<li>Livestock Industry</li>
+<li>Socio-economy of Livestock</li>
+<li>Livestock Agribustiness</li>
 </ul>
 </br></br>
                 </div>
@@ -177,7 +72,7 @@
         <div class="container">
             <header class="section-header">
                 <h3 class="text-white">Conference Date</h3>
-                <h5 class="text-center text-white"><strong>MASIH DALAM PENGEMBANGAN MAZSEH</strong></h5>
+                <h6 class="text-center text-white">The date of the conference is <strong>27 - 28 August 2022</strong>, via <strong>Zoom Online</strong> The program of conference will be started at </h6>
             </header>
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-12 text-center pb-5"><img src="https://conference.polije.ac.id/icofa/2021/public/img/zoom.svg" alt=" " height="50px"></div>
@@ -211,17 +106,16 @@
       <div class="event">
         <div class="event-left">
           <div class="event-date">
-            <div class="date">8</div>
-            <div class="month">Jun</div>
+            <div class="date" style="font-size: 30px;">18 - 15</div>
+            <div class="month">Apr - May</div>
           </div>
         </div>
 
         <div class="event-right">
-          <h3 class="event-title">Some Title Here</h3>
+          <h3 class="event-title">Early Bird</h3>
 
           <div class="event-description">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus,
-            ratione.
+            Full Paper Submission
           </div>
 
           <div class="event-timing">
@@ -233,17 +127,16 @@
       <div class="event">
         <div class="event-left">
           <div class="event-date">
-            <div class="date">9</div>
-            <div class="month">Jun</div>
+            <div class="date" style="font-size: 30px;">16 - 15</div>
+            <div class="month">May - Jul</div>
           </div>
         </div>
 
         <div class="event-right">
-          <h3 class="event-title">Some Title Here</h3>
+          <h3 class="event-title">Regular</h3>
 
           <div class="event-description">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus,
-            ratione.
+            Full Paper Submission
           </div>
 
           <div class="event-timing">
@@ -255,17 +148,17 @@
       <div class="event">
         <div class="event-left">
           <div class="event-date">
-            <div class="date">4</div>
+            <div class="date" style="font-size: 30px;">15 - 24</div>
             <div class="month">Jul</div>
           </div>
         </div>
 
         <div class="event-right">
-          <h3 class="event-title">Some Title Here</h3>
+          <h3 class="event-title">Notification of Acceptance</h3>
 
           <div class="event-description">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus,
-            ratione.
+            <!-- Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus,
+            ratione. -->
           </div>
 
           <div class="event-timing">
@@ -277,17 +170,38 @@
       <div class="event">
         <div class="event-left">
           <div class="event-date">
-            <div class="date">8</div>
+            <div class="date">25</div>
             <div class="month">Jul</div>
           </div>
         </div>
 
         <div class="event-right">
-          <h3 class="event-title">Some Title Here</h3>
+          <h3 class="event-title">Final Manuscript</h3>
 
           <div class="event-description">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus,
-            ratione.
+            <!-- Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus,
+            ratione. -->
+          </div>
+
+          <div class="event-timing">
+          <img src="<?=base_url('/assets/gambar/time.png');?>" alt="" /> 10:00 am
+          </div>
+        </div>
+      </div>
+      <div class="event">
+        <div class="event-left">
+          <div class="event-date">
+            <div class="date" style="font-size: 30px;">27 - 28</div>
+            <div class="month">Aug</div>
+          </div>
+        </div>
+
+        <div class="event-right">
+          <h3 class="event-title">Conference Date</h3>
+
+          <div class="event-description">
+            <!-- Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus,
+            ratione. -->
           </div>
 
           <div class="event-timing">
@@ -494,96 +408,3 @@
         </div>
     </section>
 </main>
-
-    <section id="start_publish" class="section-bg py-5">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-6 mr-auto text-center text-md-left mb-6 mb-md-0">
-                <h1 data-aos="fade-up" class="font-weight-bold">Start Publishing Your Paper</h1>
-            </div>
-            <div class="col-md-3 text-center text-md-right">
-                <p><a href="https://easychair.org/conferences/?conf=icofa2021" class="btn btn-get-started bg-success text-white p-4" data-aos="fade-up"><span class="fa fa-upload mr-3"></span>Upload Here</a></p>
-            </div>
-            <div class="col-md-3 text-center text-md-right">
-                <p><a href="https://drive.google.com/file/d/1RZ1W7krTT5kQEQBEd9y-mafV-_u2crTS/view?usp=sharing" class="btn btn-get-started bg-success text-white p-4" data-aos="fade-up"><span class="fa fa-download mr-3"></span>Template Here</a></p>
-            </div
-        </div>
-    </div>
-</section>
-<footer id="footer">
-    <div class="footer-top">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-lg-6 col-md-6 footer-info">
-                    <h3 style="text-transform: capitalize;"><b>ABOUT Semnas 2022</b></h3>
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <img src="<?=base_url('/assets/gambar/caas_2022.png');?>" alt=" " height="200" class="mb-3">
-                        </div>
-                        <div class="col-lg-8">
-                            <p>Politeknik Negeri Jember, Indonesia will be holding online scientific conference, entitled The 4th International Conference on Food and Agriculture (ICoFA). The theme of ICoFA is “Scientific and Technological Efforts in Sustainable Food and Agriculture”.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-2 col-md-6 footer-links">
-                    <h4>Useful Links</h4>
-                    <ul>
-                                                    <li><a href="https://www.kemdikbud.go.id/main/" target="blank">Kemendikbud</a></li>
-                                                    <li><a href="https://en.polije.ac.id/" target="blank">Polije</a></li>
-                                                    <li><a href="https://conference.polije.ac.id/" target="blank">Conference</a></li>
-                                                    <li><a href="https://conference.polije.ac.id/icofa" target="blank">Previous ICoFA</a></li>
-                                            </ul>
-                </div>
-
-                <div class="col-lg-4 col-md-6 footer-contact">
-                    <h4>Contact Us</h4>
-                    <p>
-                        <strong>Website:</strong> <a href="http://conference.polije.ac.id/icofa/2021" class="text-white">http://conference.polije.ac.id/icofa/2021</a><br>
-<strong>Email:</strong> <a href="mailto:icofa@polije.ac.id" class="text-white">icofa@polije.ac.id</a><br>
-<strong>Contact Person :</strong><br>
-<strong>Khafidurrohman Agustianto, S.Pd, M.Eng</strong><br>
-<span class="h5"><i class="ion-social-whatsapp-outline"></i> <a href="https://api.whatsapp.com/send?phone=6285646418027" target="_blank" class="text-white">+62 856-4641-8027</a></span><br>
-<strong>I Gede Wiryawan, S.Kom., M.Kom.</strong><br>
-<span class="h5"><i class="ion-social-whatsapp-outline"></i> <a href="https://api.whatsapp.com/send?phone=6285752131817" target="_blank" class="text-white">+62 857-5213-1817</a></span>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="copyright">
-            &copy; Copyright <strong>Semnas 2022</strong>. All Rights Reserved
-        </div>
-        <!-- <div class="credits" style="font-size: 8pt">
-            Template <a href="https://bootstrapmade.com/buy/?theme=NewBiz" target="_blank">NewBiz</a> Designed by <a href="https://bootstrapmade.com/" target="_blank">BootstrapMade</a>
-        </div> -->
-    </div>
-</footer><!-- #footer -->
-
-<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-<!-- Uncomment below i you want to use a preloader -->
-<div id="preloader"></div>
-
-<!-- JavaScript Libraries -->
-<script src="https://conference.polije.ac.id/icofa/2021/public/lib/jquery/jquery.min.js"></script>
-<script src="https://conference.polije.ac.id/icofa/2021/public/lib/jquery/jquery-migrate.min.js"></script>
-<script src="https://conference.polije.ac.id/icofa/2021/public/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="https://conference.polije.ac.id/icofa/2021/public/lib/easing/easing.min.js"></script>
-<script src="https://conference.polije.ac.id/icofa/2021/public/lib/mobile-nav/mobile-nav.js"></script>
-<script src="https://conference.polije.ac.id/icofa/2021/public/lib/wow/wow.min.js"></script>
-<script src="https://conference.polije.ac.id/icofa/2021/public/lib/waypoints/waypoints.min.js"></script>
-<script src="https://conference.polije.ac.id/icofa/2021/public/lib/counterup/counterup.min.js"></script>
-<script src="https://conference.polije.ac.id/icofa/2021/public/lib/owlcarousel/owl.carousel.min.js"></script>
-<script src="https://conference.polije.ac.id/icofa/2021/public/lib/isotope/isotope.pkgd.min.js"></script>
-<script src="https://conference.polije.ac.id/icofa/2021/public/lib/lightbox/js/lightbox.min.js"></script>
-<script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
-<script src="https://conference.polije.ac.id/icofa/2021/public/lib/countdown/countdown.jquery.js"></script>
-<script src="https://conference.polije.ac.id/icofa/2021/public/lib/vertical-timeline/vertical-timeline.js"></script>
-
-<!-- Template Main Javascript File -->
-<script src="https://conference.polije.ac.id/icofa/2021/public/js/main.js"></script>
-</body>
-</html>
