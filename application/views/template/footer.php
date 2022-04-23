@@ -19,37 +19,37 @@
             <div class="row">
 
                 <div class="col-lg-6 col-md-6 footer-info">
-                    <h3 style="text-transform: capitalize;"><b>ABOUT Semnas 2022</b></h3>
+                    <h3 style="text-transform: capitalize; color:black"><b>ABOUT Semnas 2022</b></h3>
                     <div class="row">
                         <div class="col-lg-4">
                             <img src="<?=base_url('/assets/gambar/caas_2022.png');?>" alt=" " height="200" class="mb-3">
                         </div>
                         <div class="col-lg-8">
-                            <p>The Conference of Applied Animal Science (CAAS) is an annual event organized by the Department of Animal Husbandry (Jember State Polytechnic, ID). This event was held to increase knowledge related to applied animal husbandry science development. Besides that, it is hoped that this event will strengthen the friendly relationship between all livestock people.</p>
+                            <p style="color: black;">The Conference of Applied Animal Science (CAAS) is an annual event organized by the Department of Animal Husbandry (Jember State Polytechnic, ID). This event was held to increase knowledge related to applied animal husbandry science development. Besides that, it is hoped that this event will strengthen the friendly relationship between all livestock people.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-2 col-md-6 footer-links">
-                    <h4>Useful Links</h4>
+                    <h4 style="color: black;">Useful Links</h4>
                     <ul>
-                                                    <li><a href="https://www.kemdikbud.go.id/main/" target="blank">Kemendikbud</a></li>
-                                                    <li><a href="https://en.polije.ac.id/" target="blank">Polije</a></li>
-                                                    <li><a href="https://conference.polije.ac.id/" target="blank">Conference</a></li>
-                                                    <li><a href="https://conference.polije.ac.id/icofa" target="blank">Previous ICoFA</a></li>
+                                                    <li><a href="https://www.kemdikbud.go.id/main/" target="blank" style="color: black;">Kemendikbud</a></li>
+                                                    <li><a href="https://en.polije.ac.id/" target="blank"style="color: black;">Polije</a></li>
+                                                    <li><a href="https://conference.polije.ac.id/" target="blank" style="color: black;">Conference</a></li>
+                                                    <li><a href="https://conference.polije.ac.id/icofa" target="blank" style="color: black;">Previous ICoFA</a></li>
                                             </ul>
                 </div>
 
                 <div class="col-lg-4 col-md-6 footer-contact">
-                    <h4>Contact Us</h4>
-                    <p>
-                        <strong>Website:</strong> <a href="http://conference.polije.ac.id/icofa/2021" class="text-white">http://conference.polije.ac.id/icofa/2021</a><br>
-<strong>Email:</strong> <a href="mailto:icofa@polije.ac.id" class="text-white">icofa@polije.ac.id</a><br>
+                    <h4 style="color: black;">Contact Us</h4>
+                    <p style="color: black;">
+                        <strong>Website:</strong> <a href="http://conference.polije.ac.id/icofa/2021" class="text-black">http://conference.polije.ac.id/icofa/2021</a><br>
+<strong>Email:</strong> <a href="mailto:icofa@polije.ac.id" class="text-black">icofa@polije.ac.id</a><br>
 <strong>Contact Person :</strong><br>
 <strong>Khafidurrohman Agustianto, S.Pd, M.Eng</strong><br>
-<span class="h5"><i class="ion-social-whatsapp-outline"></i> <a href="https://api.whatsapp.com/send?phone=6285646418027" target="_blank" class="text-white">+62 856-4641-8027</a></span><br>
+<span class="h5"><i class="ion-social-whatsapp-outline"></i> <a href="https://api.whatsapp.com/send?phone=6285646418027" target="_blank" class="text-black">+62 856-4641-8027</a></span><br>
 <strong>I Gede Wiryawan, S.Kom., M.Kom.</strong><br>
-<span class="h5"><i class="ion-social-whatsapp-outline"></i> <a href="https://api.whatsapp.com/send?phone=6285752131817" target="_blank" class="text-white">+62 857-5213-1817</a></span>
+<span class="h5"><i class="ion-social-whatsapp-outline"></i> <a href="https://api.whatsapp.com/send?phone=6285752131817" target="_blank" class="text-black">+62 857-5213-1817</a></span>
                     </p>
                 </div>
             </div>

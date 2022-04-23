@@ -6,7 +6,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta name="keywords" content="ICoFA 2021">
     <meta name="description" content="4th International Conference on Food and Agriculture">
-    <meta name="theme-color" content="#28a745">
+    <meta name="theme-color" content="#FEE6A8">
     <meta property="og:title" content="ICoFA 2021">
 	<meta property="og:description" content="4th International Conference on Food and Agriculture">
 	<meta property="og:image" content="https://conference.polije.ac.id/icofa/2021/public/img/icofa_4th_icon.png">
@@ -35,7 +35,7 @@
 
     <!-- Main Stylesheet File -->
     <link href="https://conference.polije.ac.id/icofa/2021/public/css/style.css" rel="stylesheet">
-    <link href="https://conference.polije.ac.id/icofa/2021/public/css/custom.css" rel="stylesheet">
+    <link href="<?=base_url('/assets/css/baru.css');?>" rel="stylesheet">
 </head>
 <body>
     <header id="header" class="fixed-top">
