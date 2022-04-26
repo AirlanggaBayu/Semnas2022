@@ -8,12 +8,12 @@
                         <div class="container caption-content">
                             <div class="row">
                                 <div class="col-lg-7 intro-info animated fadeInUp">
-                                    <h2 class="mt-6-mb-3 text-name">5th ICoFA 2022</h2>
+                                    <h2 style="text-shadow: 5px 5px #000000;" class="mt-6-mb-3 text-name">5th ICoFA 2022</h2>
                                     <h3 class="muted mb-4 font-italic text-theme">Dalam Pengembangan Mazseh </h3>
                                     
                                 </div>
                                 <div class="col-lg-5 intro-img animated fadeInRight">
-                                    <img src="<?= base_url('/assets/gambar/caas_2022.png');?>" alt=" " width="370px" class="img-fluid">
+                                    <img src="<?= base_url('/assets/gambar/logocaas.png');?>" alt=" " width="370px" class="img-fluid">
                                 </div>
                             </div>  
                         </div>
@@ -223,42 +223,42 @@
             <div class="row justify-content-center">
                                 <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-duration="1.4s">
                     <div class="box">
-                        <div class="icon"><i class="ion-ios-book" style="color: #0e6b0e;"></i></div>
+                        <div class="icon"><i class="bi bi-book"></i></div>
                         <h4 class="title"><a href="#" target="_self">Book of Abstract</a></h4>
                         <p class="description">Please do not be hesitate to download the digital version Book Of Abstract.</p>
                     </div>
                 </div>    
                                 <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-duration="1.4s">
                     <div class="box">
-                        <div class="icon"><i class="ion-ios-bookmarks" style="color: #0e6b0e;"></i></div>
+                        <div class="icon"><i class="bi bi-file-earmark-image"></i></div>
                         <h4 class="title"><a href="poster-guideline" target="_self">Poster Guideline</a></h4>
                         <p class="description">Please make sure the poster you bring or send to ICoFA fulfills the following criteria</p>
                     </div>
                 </div>    
                                 <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-duration="1.4s">
                     <div class="box">
-                        <div class="icon"><i class="ion-ios-paper" style="color: #0e6b0e;"></i></div>
+                        <div class="icon"><i class="bi bi-mic-fill"></i></div>
                         <h4 class="title"><a href="presentation-schedule" target="_self">Presentation Schedule</a></h4>
                         <p class="description">Schedule of Presentation during event ICoFA 2021</p>
                     </div>
                 </div>    
                                 <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-duration="1.4s">
                     <div class="box">
-                        <div class="icon"><i class="ion-ios-monitor" style="color: #0e6b0e;"></i></div>
+                        <div class="icon"><i class="bi bi-calendar-day"></i></div>
                         <h4 class="title"><a href="program-schedule" target="_self">Program Schedule</a></h4>
                         <p class="description">Schedule of Program during event ICoFA 2021</p>
                     </div>
                 </div>    
                                 <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-duration="1.4s">
                     <div class="box">
-                        <div class="icon"><i class="ion-trophy" style="color: #0e6b0e;"></i></div>
+                        <div class="icon"><i class="bi bi-award"></i></div>
                         <h4 class="title"><a href="awards" target="_self">Awards</a></h4>
                         <p class="description">List of Awards given during the ICoFA 2021 event</p>
                     </div>
                 </div>    
                                 <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-duration="1.4s">
                     <div class="box">
-                        <div class="icon"><i class="ion-ios-cloud-upload" style="color: #0e6b0e;"></i></div>
+                        <div class="icon"><i class="bi bi-info-circle"></i></div>
                         <h4 class="title"><a href="https://easychair.org/conferences/?conf=icofa2021" target="_self">Submission System</a></h4>
                         <p class="description">Information about Submission System</p>
                     </div>

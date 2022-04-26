@@ -55,7 +55,7 @@ p {
 	color: #2b5329;
 }
 .back-to-top {
-	background: #fee6a8;
+	background: grey;
 }
 .section-header h3 {
 	font-size: 20pt;
@@ -69,10 +69,10 @@ p {
 	border-top: 6px solid #0e6b0e;
 }
 .section-bg {
-	background: #f1faf5;
+	background: #fffcc7;
 }
 #footer {
-	background: #2b5329;
+	background: #2db83d;
 }
 #footer .footer-top {
 	background: #fee6a8;
@@ -98,11 +98,11 @@ p {
 }
 #callforpaper .icon {
 	position: absolute;
-	left: -10px;
+	left: 5px;
 	top: calc(50% - 32px);
 }
 #callforpaper .icon i {
-	font-size: 64px;
+	font-size: 50px;
 	line-height: 1;
 	transition: 0.5s;
 }

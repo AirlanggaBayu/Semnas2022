@@ -19,10 +19,10 @@
             <div class="row">
 
                 <div class="col-lg-6 col-md-6 footer-info">
-                    <h3 style="text-transform: capitalize; color:black"><b>ABOUT Semnas 2022</b></h3>
+                    <h3 style="text-transform: capitalize; color:black"><b>ABOUT CAAS 2022</b></h3>
                     <div class="row">
                         <div class="col-lg-4">
-                            <img src="<?=base_url('/assets/gambar/caas_2022.png');?>" alt=" " height="200" class="mb-3">
+                            <img src="<?=base_url('/assets/gambar/logocaas.png');?>" alt=" " height="120" class="mb-3">
                         </div>
                         <div class="col-lg-8">
                             <p style="color: black;">The Conference of Applied Animal Science (CAAS) is an annual event organized by the Department of Animal Husbandry (Jember State Polytechnic, ID). This event was held to increase knowledge related to applied animal husbandry science development. Besides that, it is hoped that this event will strengthen the friendly relationship between all livestock people.</p>
@@ -63,7 +63,7 @@
     </div>
 </footer><!-- #footer -->
 
-<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<a href="#" class="back-to-top"><h3><i class="bi bi-arrow-up"></i></h3></a>
 <!-- Uncomment below i you want to use a preloader -->
 <div id="preloader"></div>
 

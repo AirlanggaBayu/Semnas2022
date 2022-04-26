@@ -13,7 +13,7 @@
 	<meta property="og:url" content="https://conference.polije.ac.id/icofa/2021">
 
     <!-- CSS SENDIRI -->
-    <link rel="stylesheet" href="<?=base_url('assets/css/style.css');?>">
+    <link rel="stylesheet" href="<?=base_url('/assets/css/style.css');?>">
     <!-- Favicons -->
     <link href="https://conference.polije.ac.id/icofa/2021/public/img/icofa_4th_icon.png" rel="icon">
     <link href="https://conference.polije.ac.id/icofa/2021/public/img/icofa_4th_icon.png" rel="apple-touch-icon">
@@ -24,6 +24,9 @@
     <!-- Bootstrap CSS File -->
     <link href="https://conference.polije.ac.id/icofa/2021/public/lib/bootstrap/css/bootstrap.css" rel="stylesheet">
 
+    <!-- Bootstrap 5 ICON CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    
     <!-- Libraries CSS Files -->
     <link href="https://conference.polije.ac.id/icofa/2021/public/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://conference.polije.ac.id/icofa/2021/public/lib/animate/animate.min.css" rel="stylesheet">
@@ -35,7 +38,7 @@
 
     <!-- Main Stylesheet File -->
     <link href="https://conference.polije.ac.id/icofa/2021/public/css/style.css" rel="stylesheet">
-    <link href="<?=base_url('assets/css/baru.css');?>" rel="stylesheet">
+    <link href="<?=base_url('/assets/css/baru.css');?>" rel="stylesheet">
 </head>
 <body>
     <header id="header" class="fixed-top">
@@ -43,7 +46,7 @@
             <div class="logo float-left">
                 <!-- Uncomment below if you prefer to use an image logo -->
                 <!-- <h1 class="text-light"><a href="#header"><span>ICoFA 2021</span></a></h1> -->
-                <a href="https://conference.polije.ac.id/icofa/2021" class="scrollto"><img src="<?=base_url('/assets/gambar/caas_2022.png');?>" alt="" class="img-fluid mr-5" height=100px"></a>
+                <a href="https://conference.polije.ac.id/icofa/2021" class="scrollto"><h2 style="color: #f8e2b1; text-shadow: 2px 2px #ff0000;"><strong>CAAS 2022</strong></h2></a>
             </div>
             <nav class="main-nav float-right d-none d-xl-block">
                 <ul>
