@@ -35,7 +35,7 @@
 
     <!-- Main Stylesheet File -->
     <link href="https://conference.polije.ac.id/icofa/2021/public/css/style.css" rel="stylesheet">
-    <link href="<?=base_url('/assets/css/baru.css');?>" rel="stylesheet">
+    <link href="<?=base_url('assets/css/baru.css');?>" rel="stylesheet">
 </head>
 <body>
     <header id="header" class="fixed-top">
@@ -54,7 +54,7 @@
                                                                                                 <li class="drop-down"><a href="#" target="_self">For Author</a>
                                 <ul>
                                                                                                             <li><a href="#callforpaper" target="_self">Call for Papers</a></li>
-                                                                                                            <li><a href="author-information" target="_self">Submission Information</a></li>
+                                                                                                            <li><a href="<?= base_url('submission');?>" target="_self">Submission Information</a></li>
                                                                                                             <li><a href="virtual-conference-guideline" target="_self">Virtual Conference Guideline</a></li>
                                                                                                             <li><a href="#schedule" target="_self">Important Date</a></li>
                                                                                                             <li><a href="<?= base_url('registration')?>" target="_self">Publication Fee</a></li>
@@ -76,7 +76,9 @@
                                         </li>
                                                                                                     </ul>
                             </li>
-                            <li class="drop-down"><a href="#" target="_self">Download</a>
+                            <li><a href="<?= base_url('download');?>" target="_self">Download</a>
+                            </li>
+                            <!-- <li class="drop-down"><a href="#" target="_self">Download</a>
                                 <ul>
                                                                                                             <li><a href="#" target="_self">Poster</a></li>
                                                                                                             <li><a href="#" target="_self">Jurnal Ilmu Peternakan Terapan (JIPT)</a></li>
@@ -85,7 +87,7 @@
                                                                                                             <li><a href="https://drive.google.com/drive/folders/1EMJOw8XetcOcSurCPrHbdPYVrnLmC3dd?usp=sharing" target="_self">Plenary Certificate</a></li>
                                                                                                             <li><a href="https://drive.google.com/drive/folders/1BaxWQDid2iYuO-ZeMmx58Q_I05LbUu2Z?usp=sharing" target="_self">Parallel Certificate</a></li>
                                                                                                     </ul>
-                            </li>
+                            </li> -->
                                                                 <!-- Authentication Links -->
                                             <!-- <li><a href="https://conference.polije.ac.id/icofa/2021/login"><i class="fa fa-lock"></i></a></li> -->
                                     </ul>

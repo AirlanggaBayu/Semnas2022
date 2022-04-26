@@ -33,9 +33,6 @@
                 <div class="col-lg-2 col-md-6 footer-links">
                     <h4 style="color: black;">Useful Links</h4>
                     <ul>
-                                                    <li><a href="https://www.kemdikbud.go.id/main/" target="blank" style="color: black;">Kemendikbud</a></li>
-                                                    <li><a href="https://en.polije.ac.id/" target="blank"style="color: black;">Polije</a></li>
-                                                    <li><a href="https://conference.polije.ac.id/" target="blank" style="color: black;">Conference</a></li>
                                                     <li><a href="https://conference.polije.ac.id/icofa" target="blank" style="color: black;">Previous ICoFA</a></li>
                                             </ul>
                 </div>
