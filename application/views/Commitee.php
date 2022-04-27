@@ -19,61 +19,14 @@
     <table class="table table-hover table-striped committee">    
         <tbody>
                 <tr>
+                    <?php foreach ($komite as $index => $komite) {?>
+                        <?php if ($komite->jenis_komite == 'scientific') {?>
                     <td><i class="fa fa-group"></i></td>
-                    <td class="font-weight-bold">Dr. Nishu Gupta </td>
-                    <td>SRM Institute of Science and Technology, INDIA</td>
+                    <td class="font-weight-bold"><?= $komite->nama_komite ?></td>
+                    <td><?= $komite->kampus_komite?>, <?= $komite->negara_komite?></td>
                 </tr>
-                <tr>
-                    <td><i class="fa fa-group"></i></td>
-                    <td class="font-weight-bold">Prof Kyung-Min Kim, Ph.D </td>
-                    <td>Kyungpook National University, KOREA</td>
-                </tr>
-                <tr>
-                    <td><i class="fa fa-group"></i></td>
-                    <td class="font-weight-bold">Prof Dr Tosawat Seetawan </td>
-                    <td>Sakon Nakhon Rajabhat University, THAILAND</td>
-                </tr>
-                <tr>
-                    <td><i class="fa fa-group"></i></td>
-                    <td class="font-weight-bold">Assistant Professor Bibin Bintang Andriana, Ph.D </td>
-                    <td>Kwansei Gakuin University, JAPAN</td>
-                </tr>
-                <tr>
-                    <td><i class="fa fa-group"></i></td>
-                    <td class="font-weight-bold">Prof. Dr. Indarto, S.TP., DEA</td>
-                    <td>Universitas Jember, INDONESIA</td>
-                </tr>
-                <tr>
-                    <td><i class="fa fa-group"></i></td>
-                    <td class="font-weight-bold">Dr. Ir. Dadik Pantaya, M.Si. IPU</td>
-                    <td>Politeknik Negeri Jember, INDONESIA</td>
-                </tr>
-                <tr>
-                    <td><i class="fa fa-group"></i></td>
-                    <td class="font-weight-bold">Dr. Ir. Rosa Tri Hertamawati, M.Si.</td>
-                    <td>Politeknik Negeri Jember, INDONESIA</td>
-                </tr>
-                </tr>
-                <tr>
-                    <td><i class="fa fa-group"></i></td>
-                    <td class="font-weight-bold">Dr. Ir. Nurul Syamsiah, M.P.</td>
-                    <td>Politeknik Negeri Jember, INDONESIA</td>
-                </tr>
-                <tr>
-                    <td><i class="fa fa-group"></i></td>
-                    <td class="font-weight-bold">Dr. Elly Kurniawati, S.TP., M.P.</td>
-                    <td>Politeknik Negeri Jember, INDONESIA</td>
-                </tr>                
-                <tr>
-                    <td><i class="fa fa-group"></i></td>
-                    <td class="font-weight-bold">Dr. Ir. Ujang Suryadi, M.P.</td>
-                    <td>Politeknik Negeri Jember, INDONESIA</td>
-                </tr>                
-                <tr>
-                    <td><i class="fa fa-group"></i></td>
-                    <td class="font-weight-bold">Dr. Ir. Ridwan Iskandar, M.T.</td>
-                    <td>Politeknik Negeri Jember, INDONESIA</td>
-                </tr>                                
+                <?php }?>
+                <?php } ?>   
         </tbody>
     </table>
 </div>
@@ -84,62 +37,15 @@
     </div>
     <table class="table table-hover table-striped committee">    
         <tbody>
-                <tr>
+        <tr>
+                    <?php foreach ($komite2 as $index => $komite) {?>
+                        <?php if ($komite->jenis_komite == 'organizing') {?>
                     <td><i class="fa fa-group"></i></td>
-                    <td class="font-weight-bold">Dr. Nishu Gupta </td>
-                    <td>SRM Institute of Science and Technology, INDIA</td>
+                    <td class="font-weight-bold"><?= $komite->nama_komite ?></td>
+                    <td><?= $komite->status_komite?></td>
                 </tr>
-                <tr>
-                    <td><i class="fa fa-group"></i></td>
-                    <td class="font-weight-bold">Prof Kyung-Min Kim, Ph.D </td>
-                    <td>Kyungpook National University, KOREA</td>
-                </tr>
-                <tr>
-                    <td><i class="fa fa-group"></i></td>
-                    <td class="font-weight-bold">Prof Dr Tosawat Seetawan </td>
-                    <td>Sakon Nakhon Rajabhat University, THAILAND</td>
-                </tr>
-                <tr>
-                    <td><i class="fa fa-group"></i></td>
-                    <td class="font-weight-bold">Assistant Professor Bibin Bintang Andriana, Ph.D </td>
-                    <td>Kwansei Gakuin University, JAPAN</td>
-                </tr>
-                <tr>
-                    <td><i class="fa fa-group"></i></td>
-                    <td class="font-weight-bold">Prof. Dr. Indarto, S.TP., DEA</td>
-                    <td>Universitas Jember, INDONESIA</td>
-                </tr>
-                <tr>
-                    <td><i class="fa fa-group"></i></td>
-                    <td class="font-weight-bold">Dr. Ir. Dadik Pantaya, M.Si. IPU</td>
-                    <td>Politeknik Negeri Jember, INDONESIA</td>
-                </tr>
-                <tr>
-                    <td><i class="fa fa-group"></i></td>
-                    <td class="font-weight-bold">Dr. Ir. Rosa Tri Hertamawati, M.Si.</td>
-                    <td>Politeknik Negeri Jember, INDONESIA</td>
-                </tr>
-                </tr>
-                <tr>
-                    <td><i class="fa fa-group"></i></td>
-                    <td class="font-weight-bold">Dr. Ir. Nurul Syamsiah, M.P.</td>
-                    <td>Politeknik Negeri Jember, INDONESIA</td>
-                </tr>
-                <tr>
-                    <td><i class="fa fa-group"></i></td>
-                    <td class="font-weight-bold">Dr. Elly Kurniawati, S.TP., M.P.</td>
-                    <td>Politeknik Negeri Jember, INDONESIA</td>
-                </tr>                
-                <tr>
-                    <td><i class="fa fa-group"></i></td>
-                    <td class="font-weight-bold">Dr. Ir. Ujang Suryadi, M.P.</td>
-                    <td>Politeknik Negeri Jember, INDONESIA</td>
-                </tr>                
-                <tr>
-                    <td><i class="fa fa-group"></i></td>
-                    <td class="font-weight-bold">Dr. Ir. Ridwan Iskandar, M.T.</td>
-                    <td>Politeknik Negeri Jember, INDONESIA</td>
-                </tr>                                
+                <?php }?>
+                <?php } ?>      
         </tbody>
     </table>
 </div>

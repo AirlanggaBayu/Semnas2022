@@ -264,72 +264,19 @@
                 <p class="pb-1">&nbsp;</p>
             </div>
             <div class="row justify-content-center">
+                <?php foreach ($pembicara as $index => $pembicara) {?>
                                 <div class="col-lg-3 col-md-6 wow fadeInUp">
                     <div class="member text-center">
-                        <img src="<?=base_url('/assets/gambar/Agung_Irawan.jpg');?>" class="img-fluid speaker mb-3" alt="">
+                        <img src="<?=base_url('/assets/gambar/').$pembicara->gambar_pembicara?>" class="img-fluid speaker mb-3" alt="">
                         <div class="member-info">
                             <div class="member-info-content">
-                                <h6 class="font-weight-bold"><a href="" target="_blank" class="text-success">Agung Irawan</a></h6>
-                                <p class="small">Speaker 1</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>    
-                                <div class="col-lg-3 col-md-6 wow fadeInUp">
-                    <div class="member text-center">
-                    <img src="<?=base_url('/assets/gambar/Galuh_Adi_Insani.jpeg');?>" class="img-fluid speaker mb-3" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                            <h6 class="font-weight-bold"><a href="" target="_blank" class="text-success">Galuh Adi Insani</a></h6>
-                            <p class="small">Speaker 2</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>    
-                                <div class="col-lg-3 col-md-6 wow fadeInUp">
-                    <div class="member text-center">
-                    <img src="<?=base_url('/assets/gambar/Korean_Lecture.jpg');?>" class="img-fluid speaker mb-3" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                            <h6 class="font-weight-bold"><a href="" target="_blank" class="text-success">Korean Lecture</a></h6>
-                            <p class="small">Speaker 3</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>    
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp">
-                    <div class="member text-center">
-                    <img src="<?=base_url('/assets/gambar/Suryo_Firmanto.jpeg');?>" class="img-fluid speaker mb-3" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                            <h6 class="font-weight-bold"><a href="" target="_blank" class="text-success">Suryo Firmanto</a></h6>
-                            <p class="small">Speaker 4</p>
+                                <h6 class="font-weight-bold"><a href="" target="_blank" class="text-success"><?= $pembicara->nama_pembicara?></a></h6>
+                                <p class="small"><?= $pembicara->keterangan?></p>
                             </div>
                         </div>
                     </div>
                 </div> 
-                <div class="col-lg-3 col-md-6 wow fadeInUp">
-                    <div class="member text-center">
-                    <img src="<?=base_url('/assets/gambar/Suseno_Bayu_Wibowo.jpeg');?>" class="img-fluid speaker mb-3" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                            <h6 class="font-weight-bold"><a href="" target="_blank" class="text-success">Suseno Bayu Wibowo</a></h6>
-                            <p class="small">Speaker 5</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>    
-                                <div class="col-lg-3 col-md-6 wow fadeInUp">
-                    <div class="member text-center">
-                    <img src="<?=base_url('/assets/gambar/Merry_Muspita.jpg');?>" class="img-fluid speaker mb-3" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                            <h6 class="font-weight-bold"><a href="" target="_blank" class="text-success">Merry Muspita</a></h6>
-                            <p class="small">Speaker 6</p>
-                            </div>
-                        </div>
-                    </div>
+                <?php } ?>  
                 </div>    
                             </div>
         </div>
