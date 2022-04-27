@@ -68,11 +68,11 @@
         </div>
     </section>
 
-	<section id="timer" class="wow fadeIn py-5">
+    <section id="timer" class="wow fadeIn py-5">
         <div class="container">
             <header class="section-header">
                 <h3 class="text-white">Conference Date</h3>
-                <h6 class="text-center text-white">The date of the conference is <strong>27 - 28 August 2022</strong>, via <strong>Zoom Online</strong> The program of conference will be started at </h6>
+                <p class="pb-3 text-white">The date of the conference is <strong>6 - 7 November 2021</strong>, via <strong>Zoom online</strong>. The program of conference will be started at 09.00 (GMT+7).</p>
             </header>
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-12 text-center pb-5"><img src="https://conference.polije.ac.id/icofa/2021/public/img/zoom.svg" alt=" " height="50px"></div>
@@ -98,120 +98,108 @@
             <header class="section-header">
                 <h3>Important Dates</h3>
             </header>
-            <div class="event-container">
-      
-
-      <h3 class="year">2022</h3>
-
-      <div class="event">
-        <div class="event-left">
-          <div class="event-date">
-            <div class="date" style="font-size: 30px;">18 - 15</div>
-            <div class="month">Apr - May</div>
-          </div>
+            <div class="container max-width-lg cd-timeline__container">
+                                <div class="cd-timeline__block mb-3">
+                    <div class="cd-timeline__img bg-primary">
+                    <i class="bi bi-clock-fill fa-2x"></i>
+                    </div>
+                    <div class="cd-timeline__content text-component py-4">
+                        <h4 style="text-shadow:2px 2px #000000"><a href="#" class="text-white">Abstract Submission Deadline</a></h4>
+                        <p class="text-white small"></p>
+                        <div class="flex justify-between items-center">
+                            <span class="cd-timeline__date font-weight-bold"><s>September 03, 2021</s><br>
+<s>September 13, 2021</s><br>
+<b>September 17, 2021</b></span>
+                        </div>
+                    </div>
+                </div>
+                                <div class="cd-timeline__block mb-3">
+                    <div class="cd-timeline__img bg-info">
+                    <i class="bi bi-bookmark-check fa-2x"></i>
+                    </div>
+                    <div class="cd-timeline__content text-component py-4">
+                        <h4 style="text-shadow:2px 2px #000000"><a href="#" class="text-white">Abstract Accepted Announcement</a></h4>
+                        <p class="text-white small"></p>
+                        <div class="flex justify-between items-center">
+                            <span class="cd-timeline__date font-weight-bold"><s>September 04, 2021</s><br> <s>September 17, 2021</s><br>September 20, 2021</span>
+                        </div>
+                    </div>
+                </div>
+                                <div class="cd-timeline__block mb-3">
+                    <div class="cd-timeline__img bg-warning">
+                    <i class="bi bi-coin fa-2x"></i>
+                    </div>
+                    <div class="cd-timeline__content text-component py-4">
+                        <h4 style="text-shadow:2px 2px #000000"><a href="registration" class="text-white">Early Bird Payment</a></h4>
+                        <p class="text-white small"></p>
+                        <div class="flex justify-between items-center">
+                            <span class="cd-timeline__date font-weight-bold"><s>September 06-10, 2021</s><br> <s>September 18 - October 2, 2021</s><br>September 20 - October 2, 2021</span>
+                        </div>
+                    </div>
+                </div>
+                                <div class="cd-timeline__block mb-3">
+                    <div class="cd-timeline__img bg-success">
+                    <i class="bi bi-cash fa-2x"></i>
+                    </div>
+                    <div class="cd-timeline__content text-component py-4">
+                        <h4 style="text-shadow:2px 2px #000000"><a href="registration" class="text-white">Deadline Payment</a></h4>
+                        <p class="text-white small"></p>
+                        <div class="flex justify-between items-center">
+                            <span class="cd-timeline__date font-weight-bold"><s>September 24, 2021</s><br>October 24, 2021</span>
+                        </div>
+                    </div>
+                </div>
+                                <div class="cd-timeline__block mb-3">
+                    <div class="cd-timeline__img bg-primary">
+                    <i class="bi bi-file-earmark-text fa-2x"></i>
+                    </div>
+                    <div class="cd-timeline__content text-component py-4">
+                        <h4 style="text-shadow:2px 2px #000000"><a href="#" class="text-white">Full Paper Deadline</a></h4>
+                        <p class="text-white small"></p>
+                        <div class="flex justify-between items-center">
+                            <span class="cd-timeline__date font-weight-bold"><s>October 11, 2021</s><br>October 15, 2021</span>
+                        </div>
+                    </div>
+                </div>
+                                <div class="cd-timeline__block mb-3">
+                    <div class="cd-timeline__img bg-info">
+                    <i class="bi bi-file-earmark-check fa-2x"></i>
+                    </div>
+                    <div class="cd-timeline__content text-component py-4">
+                        <h4 style="text-shadow:2px 2px #000000"><a href="#" class="text-white">Notification of Accepted Full Paper</a></h4>
+                        <p class="text-white small"></p>
+                        <div class="flex justify-between items-center">
+                            <span class="cd-timeline__date font-weight-bold">October 22, 2021</span>
+                        </div>
+                    </div>
+                </div>
+                                <div class="cd-timeline__block mb-3">
+                    <div class="cd-timeline__img bg-success">
+                    <i class="bi bi-camera fa-2x"></i>
+                    </div>
+                    <div class="cd-timeline__content text-component py-4">
+                        <h4 style="text-shadow:2px 2px #000000"><a href="#" class="text-white">Camera Ready Paper</a></h4>
+                        <p class="text-white small"></p>
+                        <div class="flex justify-between items-center">
+                            <span class="cd-timeline__date font-weight-bold"><s>October 29, 2021</s><br>November 3, 2021</span>
+                        </div>
+                    </div>
+                </div>
+                                <div class="cd-timeline__block mb-3">
+                    <div class="cd-timeline__img bg-primary">
+                    <i class="bi bi-webcam fa-2x"></i>
+                    </div>
+                    <div class="cd-timeline__content text-component py-4">
+                        <h4 style="text-shadow:2px 2px #000000"><a href="#" class="text-white">Conference Date</a></h4>
+                        <p class="text-white small"></p>
+                        <div class="flex justify-between items-center">
+                            <span class="cd-timeline__date font-weight-bold">November 06-07, 2021</span>
+                        </div>
+                    </div>
+                </div>
+                            </div>
         </div>
-
-        <div class="event-right">
-          <h3 class="event-title">Early Bird</h3>
-
-          <div class="event-description">
-            Full Paper Submission
-          </div>
-
-          <div class="event-timing">
-          <img src="<?=base_url('/assets/gambar/time.png');?>" alt="" /> 10:00 am
-          </div>
-        </div>
-      </div>
-
-      <div class="event">
-        <div class="event-left">
-          <div class="event-date">
-            <div class="date" style="font-size: 30px;">16 - 15</div>
-            <div class="month">May - Jul</div>
-          </div>
-        </div>
-
-        <div class="event-right">
-          <h3 class="event-title">Regular</h3>
-
-          <div class="event-description">
-            Full Paper Submission
-          </div>
-
-          <div class="event-timing">
-          <img src="<?=base_url('/assets/gambar/time.png');?>" alt="" /> 10:30 am
-          </div>
-        </div>
-      </div>
-
-      <div class="event">
-        <div class="event-left">
-          <div class="event-date">
-            <div class="date" style="font-size: 30px;">15 - 24</div>
-            <div class="month">Jul</div>
-          </div>
-        </div>
-
-        <div class="event-right">
-          <h3 class="event-title">Notification of Acceptance</h3>
-
-          <div class="event-description">
-            <!-- Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus,
-            ratione. -->
-          </div>
-
-          <div class="event-timing">
-          <img src="<?=base_url('/assets/gambar/time.png');?>" alt="" /> 10:00 am
-          </div>
-        </div>
-      </div>
-
-      <div class="event">
-        <div class="event-left">
-          <div class="event-date">
-            <div class="date">25</div>
-            <div class="month">Jul</div>
-          </div>
-        </div>
-
-        <div class="event-right">
-          <h3 class="event-title">Final Manuscript</h3>
-
-          <div class="event-description">
-            <!-- Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus,
-            ratione. -->
-          </div>
-
-          <div class="event-timing">
-          <img src="<?=base_url('/assets/gambar/time.png');?>" alt="" /> 10:00 am
-          </div>
-        </div>
-      </div>
-      <div class="event">
-        <div class="event-left">
-          <div class="event-date">
-            <div class="date" style="font-size: 30px;">27 - 28</div>
-            <div class="month">Aug</div>
-          </div>
-        </div>
-
-        <div class="event-right">
-          <h3 class="event-title">Conference Date</h3>
-
-          <div class="event-description">
-            <!-- Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus,
-            ratione. -->
-          </div>
-
-          <div class="event-timing">
-          <img src="<?=base_url('/assets/gambar/time.png');?>" alt="" /> 10:00 am
-          </div>
-        </div>
-      </div>
-    </div>
     </section>
-
 	<section id="callforpaper" class="section-bg">
         <div class="container">
 
