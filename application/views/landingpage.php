@@ -36,7 +36,7 @@
             </header>
             <div class="row about-extra pt-3">
                 <div class="col-lg-6 wow fadeInUp order-1 order-lg-2 text-center" style="position: relative">
-                    <img src="<?= base_url('/assets/gambar/chairman2022.png');?>" class="mt-5" alt="" width="325" height="500">
+                    <img src="<?= base_url('/assets/gambar/chairman2022.png');?>" class="mt-5" alt="" width="500" height="700">
 			        <div class="text-white justify-content-center border rounded p-3 bg-success" 
                     style="position: absolute; bottom:10px; left: 0px; text-shadow: 2px 2px #000000;">
                         <h5 class="font-weight-bold m-0">Ini Nama Chairman</h5>
@@ -71,8 +71,8 @@
     <section id="timer" class="wow fadeIn py-5">
         <div class="container">
             <header class="section-header">
-                <h3 class="text-white">Conference Date</h3>
-                <p class="pb-3 text-white">The date of the conference is <strong>6 - 7 November 2021</strong>, via <strong>Zoom online</strong>. The program of conference will be started at 09.00 (GMT+7).</p>
+                <h3 class="text-black">Conference Date</h3>
+                <p class="pb-3 text-dark">The date of the conference is <strong>27 - 28 August 2022</strong>, via <strong>Zoom online</strong>. The program of conference will be started at 09.00 (GMT+7).</p>
             </header>
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-12 text-center pb-5"><img src="https://conference.polije.ac.id/icofa/2021/public/img/zoom.svg" alt=" " height="50px"></div>
@@ -84,10 +84,17 @@
                 </a> -->
             </div>
             <div class="row">
-                <div class="col-lg-8 offset-lg-2">
+                <div class="col-lg-9 offset-lg-2">
                     <div class="container">
-                        <div id="countdown" class="row justify-content-center align-items-center"></div>
+                        <div id="countdown" class="row justify-content-center align-items-center">
+                        <div class="col-xs-6 col-sm-3  rotateIn"><h5>Days</h5></div>
+                        <div class="col-xs-6 col-sm-3  rotateIn"><h5>Hours</h5></div>
+                        <div class="col-xs-6 col-sm-3  rotateIn"><h5>Minutes</h5></div>
+                        <div class="col-xs-6 col-sm-3  rotateIn"><h5>Seconds</h5></div>
+                        </div>
                     </div>
+                   
+
                 </div>
             </div>
         </div>
@@ -104,7 +111,7 @@
                     <i class="bi bi-clock-fill fa-2x"></i>
                     </div>
                     <div class="cd-timeline__content text-component py-4">
-                        <h4 style="text-shadow:2px 2px #000000"><a href="#" class="text-white">Abstract Submission Deadline</a></h4>
+                        <h4><a href="#" class="text-black">Abstract Submission Deadline</a></h4>
                         <p class="text-white small"></p>
                         <div class="flex justify-between items-center">
                             <span class="cd-timeline__date font-weight-bold"><s>September 03, 2021</s><br>
@@ -118,8 +125,8 @@
                     <i class="bi bi-bookmark-check fa-2x"></i>
                     </div>
                     <div class="cd-timeline__content text-component py-4">
-                        <h4 style="text-shadow:2px 2px #000000"><a href="#" class="text-white">Abstract Accepted Announcement</a></h4>
-                        <p class="text-white small"></p>
+                        <h4 ><a href="#" class="text-black">Abstract Accepted Announcement</a></h4>
+                        <p class="text-black small"></p>
                         <div class="flex justify-between items-center">
                             <span class="cd-timeline__date font-weight-bold"><s>September 04, 2021</s><br> <s>September 17, 2021</s><br>September 20, 2021</span>
                         </div>
@@ -130,8 +137,8 @@
                     <i class="bi bi-coin fa-2x"></i>
                     </div>
                     <div class="cd-timeline__content text-component py-4">
-                        <h4 style="text-shadow:2px 2px #000000"><a href="registration" class="text-white">Early Bird Payment</a></h4>
-                        <p class="text-white small"></p>
+                        <h4 ><a href="registration" class="text-black">Early Bird Payment</a></h4>
+                        <p class="text-black small"></p>
                         <div class="flex justify-between items-center">
                             <span class="cd-timeline__date font-weight-bold"><s>September 06-10, 2021</s><br> <s>September 18 - October 2, 2021</s><br>September 20 - October 2, 2021</span>
                         </div>
@@ -142,8 +149,8 @@
                     <i class="bi bi-cash fa-2x"></i>
                     </div>
                     <div class="cd-timeline__content text-component py-4">
-                        <h4 style="text-shadow:2px 2px #000000"><a href="registration" class="text-white">Deadline Payment</a></h4>
-                        <p class="text-white small"></p>
+                        <h4 ><a href="registration" class="text-black">Deadline Payment</a></h4>
+                        <p class="text-black small"></p>
                         <div class="flex justify-between items-center">
                             <span class="cd-timeline__date font-weight-bold"><s>September 24, 2021</s><br>October 24, 2021</span>
                         </div>
@@ -154,8 +161,8 @@
                     <i class="bi bi-file-earmark-text fa-2x"></i>
                     </div>
                     <div class="cd-timeline__content text-component py-4">
-                        <h4 style="text-shadow:2px 2px #000000"><a href="#" class="text-white">Full Paper Deadline</a></h4>
-                        <p class="text-white small"></p>
+                        <h4 ><a href="#" class="text-black">Full Paper Deadline</a></h4>
+                        <p class="text-black small"></p>
                         <div class="flex justify-between items-center">
                             <span class="cd-timeline__date font-weight-bold"><s>October 11, 2021</s><br>October 15, 2021</span>
                         </div>
@@ -166,8 +173,8 @@
                     <i class="bi bi-file-earmark-check fa-2x"></i>
                     </div>
                     <div class="cd-timeline__content text-component py-4">
-                        <h4 style="text-shadow:2px 2px #000000"><a href="#" class="text-white">Notification of Accepted Full Paper</a></h4>
-                        <p class="text-white small"></p>
+                        <h4 ><a href="#" class="text-black">Notification of Accepted Full Paper</a></h4>
+                        <p class="text-black small"></p>
                         <div class="flex justify-between items-center">
                             <span class="cd-timeline__date font-weight-bold">October 22, 2021</span>
                         </div>
@@ -178,8 +185,8 @@
                     <i class="bi bi-camera fa-2x"></i>
                     </div>
                     <div class="cd-timeline__content text-component py-4">
-                        <h4 style="text-shadow:2px 2px #000000"><a href="#" class="text-white">Camera Ready Paper</a></h4>
-                        <p class="text-white small"></p>
+                        <h4 ><a href="#" class="text-black">Camera Ready Paper</a></h4>
+                        <p class="text-black small"></p>
                         <div class="flex justify-between items-center">
                             <span class="cd-timeline__date font-weight-bold"><s>October 29, 2021</s><br>November 3, 2021</span>
                         </div>
@@ -190,8 +197,8 @@
                     <i class="bi bi-webcam fa-2x"></i>
                     </div>
                     <div class="cd-timeline__content text-component py-4">
-                        <h4 style="text-shadow:2px 2px #000000"><a href="#" class="text-white">Conference Date</a></h4>
-                        <p class="text-white small"></p>
+                        <h4 ><a href="#" class="text-black">Conference Date</a></h4>
+                        <p class="text-black small"></p>
                         <div class="flex justify-between items-center">
                             <span class="cd-timeline__date font-weight-bold">November 06-07, 2021</span>
                         </div>
@@ -343,3 +350,6 @@
         </div>
     </section>
 </main>
+
+
+

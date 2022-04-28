@@ -39,6 +39,8 @@
     <!-- Main Stylesheet File -->
     <link href="https://conference.polije.ac.id/icofa/2021/public/css/style.css" rel="stylesheet">
     <link href="<?=base_url('/assets/css/baru.css');?>" rel="stylesheet">
+
+   <script type="text/javascript" src="<?=base_url('assets/js/main.js');?>"></script>
 </head>
 <body>
     <header id="header" class="fixed-top">

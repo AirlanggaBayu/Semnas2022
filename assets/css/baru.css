@@ -55,7 +55,7 @@ p {
 	color: #2b5329;
 }
 .back-to-top {
-	background: #fff;
+	background: green;
 }
 .section-header h3 {
 	font-size: 20pt;
@@ -172,22 +172,20 @@ img.speaker {
 }
 /* Countdown */
 #timer {
-	background: #2b5329;
+	background: #fee6a8;
 }
 #countdown .wrapper {
 	text-align: center;
 }
-#countdown .time {
-	color: #fff;
+#countdown {
+	color: #000;
 	font-size: 3em;
-	border: 1px solid #fff;
-	border-radius: 5px;
 	padding: 0 15px;
 }
 #countdown .label {
 	font-size: 1em;
 	display: block;
-	color: #aaa;
+	color: #000;
 }
 #location {
 	box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
@@ -195,7 +193,7 @@ img.speaker {
 	overflow: hidden;
 }
 .cd-timeline__content {
-	background-color: #28a745;
+	background-color: #fee6a8;
 }
 .cd-timeline__content h4 {
 	font-weight: bold;

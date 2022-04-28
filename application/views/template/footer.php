@@ -5,10 +5,10 @@
                 <h1 data-aos="fade-up" class="font-weight-bold">Start Publishing Your Paper</h1>
             </div>
             <div class="col-md-3 text-center text-md-right">
-                <p><a href="https://easychair.org/conferences/?conf=icofa2021" class="btn btn-get-started bg-success text-white p-4" data-aos="fade-up"><span class="fa fa-upload mr-3"></span>Upload Here</a></p>
+                <p><a href="https://easychair.org/conferences/?conf=icofa2021" class="btn btn-get-started bg-success text-white p-4" data-aos="fade-up"><i class="bi bi-upload"> Upload Here</i> </a></p>
             </div>
             <div class="col-md-3 text-center text-md-right">
-                <p><a href="https://drive.google.com/file/d/136Hags-SNF7F3vPHYPOmo5mL8PJVpQrl/view?usp=sharing" class="btn btn-get-started bg-success text-white p-4" data-aos="fade-up"><span class="fa fa-download mr-3"></span>Template Here</a></p>
+                <p><a href="https://drive.google.com/file/d/136Hags-SNF7F3vPHYPOmo5mL8PJVpQrl/view?usp=sharing" class="btn btn-get-started bg-success text-white p-4" data-aos="fade-up"> <i class="bi bi-download"> Template Here</i> </a></p>
 </div>
         </div>
     </div>
