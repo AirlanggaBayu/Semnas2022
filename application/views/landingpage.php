@@ -106,104 +106,20 @@
                 <h3>Important Dates</h3>
             </header>
             <div class="container max-width-lg cd-timeline__container">
-                                <div class="cd-timeline__block mb-3">
-                    <div class="cd-timeline__img bg-primary">
-                    <i class="bi bi-clock-fill fa-2x"></i>
-                    </div>
-                    <div class="cd-timeline__content text-component py-4">
-                        <h4><a href="#" class="text-black">Abstract Submission Deadline</a></h4>
-                        <p class="text-white small"></p>
-                        <div class="flex justify-between items-center">
-                            <span class="cd-timeline__date font-weight-bold"><s>September 03, 2021</s><br>
-<s>September 13, 2021</s><br>
-<b>September 17, 2021</b></span>
-                        </div>
-                    </div>
-                </div>
-                                <div class="cd-timeline__block mb-3">
-                    <div class="cd-timeline__img bg-info">
-                    <i class="bi bi-bookmark-check fa-2x"></i>
-                    </div>
-                    <div class="cd-timeline__content text-component py-4">
-                        <h4 ><a href="#" class="text-black">Abstract Accepted Announcement</a></h4>
-                        <p class="text-black small"></p>
-                        <div class="flex justify-between items-center">
-                            <span class="cd-timeline__date font-weight-bold"><s>September 04, 2021</s><br> <s>September 17, 2021</s><br>September 20, 2021</span>
-                        </div>
-                    </div>
-                </div>
-                                <div class="cd-timeline__block mb-3">
-                    <div class="cd-timeline__img bg-warning">
-                    <i class="bi bi-coin fa-2x"></i>
-                    </div>
-                    <div class="cd-timeline__content text-component py-4">
-                        <h4 ><a href="registration" class="text-black">Early Bird Payment</a></h4>
-                        <p class="text-black small"></p>
-                        <div class="flex justify-between items-center">
-                            <span class="cd-timeline__date font-weight-bold"><s>September 06-10, 2021</s><br> <s>September 18 - October 2, 2021</s><br>September 20 - October 2, 2021</span>
-                        </div>
-                    </div>
-                </div>
-                                <div class="cd-timeline__block mb-3">
-                    <div class="cd-timeline__img bg-success">
-                    <i class="bi bi-cash fa-2x"></i>
-                    </div>
-                    <div class="cd-timeline__content text-component py-4">
-                        <h4 ><a href="registration" class="text-black">Deadline Payment</a></h4>
-                        <p class="text-black small"></p>
-                        <div class="flex justify-between items-center">
-                            <span class="cd-timeline__date font-weight-bold"><s>September 24, 2021</s><br>October 24, 2021</span>
-                        </div>
-                    </div>
-                </div>
-                                <div class="cd-timeline__block mb-3">
-                    <div class="cd-timeline__img bg-primary">
-                    <i class="bi bi-file-earmark-text fa-2x"></i>
-                    </div>
-                    <div class="cd-timeline__content text-component py-4">
-                        <h4 ><a href="#" class="text-black">Full Paper Deadline</a></h4>
-                        <p class="text-black small"></p>
-                        <div class="flex justify-between items-center">
-                            <span class="cd-timeline__date font-weight-bold"><s>October 11, 2021</s><br>October 15, 2021</span>
-                        </div>
-                    </div>
-                </div>
+                <?php foreach ($jadwal as $index => $jadwal) {?>
                                 <div class="cd-timeline__block mb-3">
                     <div class="cd-timeline__img bg-info">
                     <i class="bi bi-file-earmark-check fa-2x"></i>
                     </div>
                     <div class="cd-timeline__content text-component py-4">
-                        <h4 ><a href="#" class="text-black">Notification of Accepted Full Paper</a></h4>
+                        <h4 ><a href="#" class="text-black"><?= $jadwal->deskripsi?></a></h4>
                         <p class="text-black small"></p>
                         <div class="flex justify-between items-center">
-                            <span class="cd-timeline__date font-weight-bold">October 22, 2021</span>
+                            <span class="cd-timeline__date font-weight-bold"><?= date('F d, Y', strtotime($jadwal->tanggal))?> - <?php if ($jadwal->end_date != '0000-00-00') { echo date('F d, Y', strtotime($jadwal->end_date));}?></span>
                         </div>
                     </div>
                 </div>
-                                <div class="cd-timeline__block mb-3">
-                    <div class="cd-timeline__img bg-success">
-                    <i class="bi bi-camera fa-2x"></i>
-                    </div>
-                    <div class="cd-timeline__content text-component py-4">
-                        <h4 ><a href="#" class="text-black">Camera Ready Paper</a></h4>
-                        <p class="text-black small"></p>
-                        <div class="flex justify-between items-center">
-                            <span class="cd-timeline__date font-weight-bold"><s>October 29, 2021</s><br>November 3, 2021</span>
-                        </div>
-                    </div>
-                </div>
-                                <div class="cd-timeline__block mb-3">
-                    <div class="cd-timeline__img bg-primary">
-                    <i class="bi bi-webcam fa-2x"></i>
-                    </div>
-                    <div class="cd-timeline__content text-component py-4">
-                        <h4 ><a href="#" class="text-black">Conference Date</a></h4>
-                        <p class="text-black small"></p>
-                        <div class="flex justify-between items-center">
-                            <span class="cd-timeline__date font-weight-bold">November 06-07, 2021</span>
-                        </div>
-                    </div>
-                </div>
+                <?php } ?>
                             </div>
         </div>
     </section>

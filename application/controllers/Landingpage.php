@@ -11,6 +11,7 @@ class Landingpage extends CI_Controller {
 	public function index()
 	{
 		$data['pembicara'] = $this->M_data->pembicara();
+		$data['jadwal'] = $this->M_data->getdata('jadwal');
         $this->load->helper('url');
 		$this->load->view('template/header');
 		$this->load->view('landingpage', $data);
