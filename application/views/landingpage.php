@@ -36,7 +36,7 @@
             </header>
             <div class="row about-extra pt-3">
                 <div class="col-lg-6 wow fadeInUp order-1 order-lg-2 text-center " style="position: relative;">
-                    <img src="<?= base_url('/assets/gambar/chairman2022.png');?>" class="mt-5" alt="" width="325" height="540">
+                    <img src="<?= base_url('/assets/gambar/chairman2022new.png');?>" class="mt-5" alt=""  >
 			        <div class="text-white justify-content-center border rounded p-3 bg-success" 
                     style="position: absolute; bottom:10px; left: 0px; text-shadow: 2px 2px #000000;">
                         <h5 class="font-weight-bold m-0">Ini Nama Chairman</h5>
@@ -47,18 +47,18 @@
                 <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
                     <h4></h4>
                     <p>Department of Animal Husbandry  (Politeknik Negeri Jember, Indonesia) will be holding an online scientific conference entitled The 3rd National Conference Of Applied Animal Science (CAAS). A theme of the 3rd CAAS is "Challenges Livestock Industry through the Application of Green Economy to Recognize Sustainable Food Independence  in the Era of Society 5.0."</p>
-<p>The conference will discuss several topics, including:</p>
-<ol style="list-style-type: number;" class="ml-5 mb-5">
-<li>Livestock Production</li>
-<li>Animal Health</li>
-<li>Animal Nutrition</li>
-<li>Feed Technology</li>
-<li>Livestock Technology</li>
-<li>Livestock Industry</li>
-<li>Socio-economy of Livestock</li>
-<li>Livestock Agribustiness</li>
+                    <p>The conference will discuss several topics, including:</p>
+                        <ul style="list-style-type: number;" class="ml-5 mb-5">
+                            <li>Livestock Production</li>
+                            <li>Animal Health</li>
+                            <li>Animal Nutrition</li>
+                            <li>Feed Technology</li>
+                            <li>Livestock Technology</li>
+                            <li>Livestock Industry</li>
+                            <li>Socio-economy of Livestock</li>
+                            <li>Livestock Agribustiness</li>
 
-</ul>
+                        </ul>
 </br></br>
                 </div>
                 
