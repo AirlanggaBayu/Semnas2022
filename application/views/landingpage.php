@@ -4,7 +4,7 @@
             <div id="carousel-intro" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="<?=base_url('/assets/gambar/HeaderWebCAAS.png');?>"  class="img-fluid" alt=" ">
+                        <img src="<?=base_url('/assets/gambar/HeaderWebCAAS.png');?>"  class="img-fluid" alt=" " width="150%">
                         <div class="container caption-content">
                             <div class="row">
                                 <div class="col-lg-7 intro-info animated fadeInUp">
