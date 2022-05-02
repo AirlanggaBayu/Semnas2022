@@ -1,12 +1,3 @@
-<header id="page-intro" class="clearfix bg-success mb-5">
-    <div class="container">
-        <div class="intro-info">
-            <h1 class="wow fadeIn text-center page-title-shadow">Committee</h1>
-            <h2 class="mb-3 wow fadeInUp text-center text-name">Committee</h2>
-        </div>
-    </div>
-</header>
-
 <main id="main">
     <section id="content" class="pt-3 pb-5">
         <div class="container">

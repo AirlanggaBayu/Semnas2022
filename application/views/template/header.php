@@ -53,15 +53,15 @@
             <nav class="main-nav float-right d-none d-xl-block">
                 <ul>
                                                                         <li><a href="<?= base_url('landingpage')?>" target="_self">Home</a></li>
-                                                                                                <li><a href="#speaker" target="_self">Speaker</a></li>
+                                                                                                <li><a href="<?=base_url("landingpage")?>#speaker" target="_self">Speaker</a></li>
                                                                                                 <li><a href="<?= base_url('commitee');?>" target="_self">Committee</a>
                             </li>
                                                                                                 <li class="drop-down"><a href="#" target="_self">For Author</a>
                                 <ul>
-                                                                                                            <li><a href="#callforpaper" target="_self">Call for Papers</a></li>
+                                                                                                            <li><a href="<?= base_url("landingpage")?>#callforpaper" target="_self">Call for Papers</a></li>
                                                                                                             <li><a href="<?= base_url('submission');?>" target="_self">Submission Information</a></li>
                                                                                                             <li><a href="virtual-conference-guideline" target="_self">Virtual Conference Guideline</a></li>
-                                                                                                            <li><a href="#schedule" target="_self">Important Date</a></li>
+                                                                                                            <li><a href="<?= base_url("landingpage")?>#schedule" target="_self">Important Date</a></li>
                                                                                                             <li><a href="<?= base_url('registration')?>" target="_self">Publication Fee</a></li>
                                                                                                     </ul>
                             </li>
