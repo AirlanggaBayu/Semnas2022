@@ -4,8 +4,10 @@
             <div class="row about-extra pt-3">
                 <div class="col-lg-12 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
                     <div class="card border-0 table-responsive">
-    <div class="card-header bg-success">
-        <h3 class="card-title font-weight-bold text-center text-lg-left text-white pt-3">Scientific Committee CaaS 2022</h3>
+                    </div>
+
+    <div style="background-color: #fee6a8;" class="card-header">
+        <h3 class="card-title font-weight-bold text-center text-lg-left text-dark pt-3">Scientific Committee CaaS 2022</h3>
     </div>
     <table class="table table-hover table-striped committee">    
         <tbody>
@@ -23,8 +25,8 @@
 </div>
 
 <div class="card border-0 table-responsive">
-    <div class="card-header bg-success">
-        <h3 class="card-title font-weight-bold text-center text-lg-left text-white pt-3">Organizing Committee CaaS 2022</h3>
+    <div style="background-color: #fee6a8;" class="card-header">
+        <h3 class="card-title font-weight-bold text-center text-lg-left text-dark pt-3 mt-5">Organizing Committee CaaS 2022</h3>
     </div>
     <table class="table table-hover table-striped committee">    
         <tbody>
