@@ -224,6 +224,21 @@
                         </div>
                                             </div>
                 </div>
+                <div class="col-lg-6">
+                    <div class="section-header">
+                        <h3>Supported By</h3>
+                    </div>
+                    <div class="row no-gutters clearfix wow fadeInUp mb-3 justify-content-center">
+                            
+                        <div class="col-lg-6">
+                            <div class="links-logo links-logo-single">
+                                <a href="http://en.polije.ac.id/" target="_blank">
+                                    <img src="https://conference.polije.ac.id/icofa/2021/public/img/logo/polije-logo-gabung.png" class="img-fluid" alt="">
+                                </a>
+                            </div>
+                        </div>
+                                            </div>
+                </div>
             </div>
             
 
@@ -233,6 +248,22 @@
                 <div class="col-lg-6">
                     <div class="section-header">
                         <h3>Published By</h3>
+                        <p class="pb-3">IOP Conference Series: Earth and Environmental Science (ESS)</p>
+                    </div>
+                    <div class="row no-gutters clearfix wow fadeInUp mb-3 justify-content-center">
+                            
+                        <div class="col-lg-6">
+                            <div class="links-logo links-logo-single">
+                                <a href="https://ioppublishing.org/" target="_blank">
+                                    <img src="<?=base_url('/assets/gambar/Logo_JIPT_New.png');?>" class="img-fluid" alt="">
+                                </a>
+                            </div>
+                        </div>
+                                            </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="section-header">
+                        <h3>Sponsored By</h3>
                         <p class="pb-3">IOP Conference Series: Earth and Environmental Science (ESS)</p>
                     </div>
                     <div class="row no-gutters clearfix wow fadeInUp mb-3 justify-content-center">
