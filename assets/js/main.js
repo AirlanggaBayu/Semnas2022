@@ -1,26 +1,33 @@
-const countdown = () => {
-	// Specify the date and time we are counting down to.
-	const countDate = new Date("Aug 27, 2022 09:00:00").getTime();
-	const now = new Date().getTime();
-	const remainingTime = countDate - now;
+var countDownDate = new Date("Aug 27, 2022 09:00:00").getTime();
 
-	const second = 1000;
-	const minute = second * 60;
-	const hour = minute * 60;
-	const day = hour * 24;
+// Update the count down every 1 second
+var x = setInterval(function () {
+	// Get today's date and time
+	var now = new Date().getTime();
 
-	const textDay = Math.floor(remainingTime / day);
-	const textHour = Math.floor((remainingTime % day) / hour);
-	const textMinute = Math.floor((remainingTime % hour) / minute);
-	const textSecond = Math.floor((remainingTime % minute) / second);
+	// Find the distance between now and the count down date
+	var distance = countDownDate - now;
 
-	document.querySelector("#days").innerText = textDay > 0 ? textDay : 0;
-	document.querySelector("#hours").innerText = textHour > 0 ? textHour : 0;
-	document.querySelector("#minutes").innerText =
-		textMinute > 0 ? textMinute : 0;
-	document.querySelector("#seconds").innerText =
-		textSecond > 0 ? textSecond : 0;
-};
+	// Time calculations for days, hours, minutes and seconds
+	var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+	var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+	var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+	var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-// should use 500 as setInterval won't always run on time.
-setInterval(countdown, 1000);
+	// Output the result in an element with id="demo"
+	document.getElementById("countdown2").innerHTML =
+		days +
+		" Days " +
+		hours +
+		" Hours " +
+		minutes +
+		" Minutes " +
+		seconds +
+		" Seconds ";
+
+	// If the count down is over, write some text
+	if (distance < 0) {
+		clearInterval(x);
+		document.getElementById("countdown2").innerHTML = "EXPIRED";
+	}
+}, 1000);

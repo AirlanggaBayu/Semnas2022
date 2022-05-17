@@ -75,8 +75,8 @@
                 <h3 class="text-black">Conference Date</h3>
                 <p class="pb-3 text-dark">The date of the conference is <strong>27 - 28 August 2022</strong>, via <strong>Zoom online</strong>. The program of conference will be started at 09.00 (GMT+7).</p>
             </header>
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-12 text-center pb-5"><img src="https://conference.polije.ac.id/icofa/2021/public/img/zoom.svg" alt=" " height="50px"></div>
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-12 text-center pb-2"><img src="https://conference.polije.ac.id/icofa/2021/public/img/zoom.svg" alt=" " height="50px"></div>
                 <!-- <a class="btn btn-get-started bg-light font-weight-bold" href="https://us06web.zoom.us/j/81017369538?pwd=WVducVN3dDFsSVVyOWhEWStDMjZXZz09" target="_blank" data-aos="fade-up">
                     <div class="d-flex">
                         <img src="https://conference.polije.ac.id/icofa/2021/public/img/zoom.svg" height="50">
@@ -87,11 +87,11 @@
             <div class="row">
                 <div class="col-lg-9 offset-lg-2">
                     <div class="container">
-                        <div id="countdown" class="row justify-content-center align-items-center">
-                        <div class="col-xs-6 col-sm-3  rotateIn"><h5>Days</h5></div>
-                        <div class="col-xs-6 col-sm-3  rotateIn"><h5>Hours</h5></div>
-                        <div class="col-xs-6 col-sm-3  rotateIn"><h5>Minutes</h5></div>
-                        <div class="col-xs-6 col-sm-3  rotateIn"><h5>Seconds</h5></div>
+                            <div id="countdown2" class="row justify-content-center align-items-center">
+                            <!-- <div id ="days" class="col-xs-6 col-sm-3   rotateIn"><h5>Days</h5></div>
+                            <div id ="hours" class="col-xs-6 col-sm-3  rotateIn"><h5>Hours</h5></div>
+                            <div id ="minutes" class="col-xs-6 col-sm-3  rotateIn"><h5>Minutes</h5></div>
+                            <div id ="seconds" class="col-xs-6 col-sm-3  rotateIn"><h5>Seconds</h5></div> -->
                         </div>
                     </div>
                    

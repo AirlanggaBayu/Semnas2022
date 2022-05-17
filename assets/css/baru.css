@@ -174,17 +174,20 @@ img.speaker {
 #timer {
 	background: #fee6a8;
 }
-#countdown .wrapper {
+#countdown2 .wrapper {
 	text-align: center;
 }
-#countdown {
+#countdown2 {
 	color: #000;
-	font-size: 3em;
-	padding: 0 15px;
+	font-size: 30px;
+	padding: 0 10px;
+	text-shadow: #fff 2px 2px;
+	text-align: center;
+	font-weight: bold;
 }
-#countdown .label {
+#countdown2 .label {
 	font-size: 1em;
-	display: block;
+	display: inline-flex;
 	color: #000;
 }
 #location {
